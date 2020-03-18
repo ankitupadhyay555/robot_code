@@ -1,11 +1,6 @@
 *** Settings ***
 Library  SeleniumLibrary
-
-*** Variables ***
-${browser}  Chrome
-${url}  https://demo.nopcommerce.com/
-${id}   ankit.28jun@gmail.com
-${pass}     pass@123
+Resource  ../variables/variables.robot
 
 *** Test Cases ***
 Open Browser and open up Web Page.
